@@ -1,4 +1,4 @@
 import requests
 print(requests.__version__)
-google = requests.get("http://www.google.com/")
-print(google.content)
+git = requests.get("https://raw.githubusercontent.com/yuanmaoChris/404-lab1/master/lab1.py")
+print(git.content)
